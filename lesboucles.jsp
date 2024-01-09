@@ -73,7 +73,7 @@
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
     <% cpy=cpt; %>
         <% for (int h = 1; h <= cpt; h++) { %>
-            <% for (int m = (cpy - 2); m >= 1; m--) { %>
+            <% for (int m = (cpy - 1); m >= 1; m--) { %>
                 <%= "." %>
             <% } %>
             <% for (int l = 1; l <= h; l++) { %>
