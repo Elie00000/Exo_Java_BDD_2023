@@ -112,6 +112,7 @@
     <% cpy=cpt; %>
         <% for (int z = 1; z <= cpt; z++) { %>
             <% int w = cpt * z; out.print(cpt + "x" + z + "=" + w); %>
+            <br>
         <% } %>
 
 <% } %>
