@@ -16,10 +16,7 @@
     <% String valeur2 = request.getParameter("valeur2"); %>
     <% String valeur3 = request.getParameter("valeur3"); %>
 
-    <% int intValeur1 = 0; %>
-    <% int intValeur2 = 0; %>
-    <% int intValeur3 = 0; %>
-
+    
     <%-- Vérification de la condition entre les deux valeurs --%>
     <% if (valeur1 != null && valeur2 != null && valeur3 != null) { %>
         <%-- Conversion des valeurs en entiers pour la comparaison --%>
