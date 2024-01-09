@@ -48,7 +48,7 @@
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
     <% int cpy=cpt; %>
     <% for (int c = 1; c <= cpt; c++) { %>
-        <% for (int d = cpt; d >= 1; d--) { %>
+        <% for (int d = cpy; d >= 1; d--) { %>
             <%= "*" %>
         <% } %>
         <% cpy = cpy - 1; %>
