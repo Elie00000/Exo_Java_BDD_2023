@@ -22,7 +22,15 @@
         <% int intValeur1 = Integer.parseInt(valeur1); %>
         <% int intValeur2 = Integer.parseInt(valeur2); %>
         <% int intValeur3 = Integer.parseInt(valeur3); %>
-    <% } %>
+        
+        <%-- Condition if pour comparer les valeurs --%>
+        <% if (intValeur1 > intValeur2) { %>
+            <p>Valeur 1 est supérieure à Valeur 2.</p>
+        <% } else if (intValeur1 < intValeur2) { %>
+            <p>Valeur 1 est inférieure à Valeur 2.</p>
+        <% } else { %>
+            <p>Valeur 1 est égale à Valeur 2.</p>
+        <% } %>
    
     
 <h2>Exercice 1 : Comparaison 1</h2>
