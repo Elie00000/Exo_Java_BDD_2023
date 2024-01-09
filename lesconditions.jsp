@@ -42,7 +42,7 @@
     <p>La Valeur 1 est un nombre impair</p>
 <% } %>
 
-<% } %>
+
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
