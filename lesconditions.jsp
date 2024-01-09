@@ -27,7 +27,7 @@
 <h2>Exercice 1 : Comparaison 1</h2>
 <p>Ecrire un programme qui demande à l'utilisateur de saisir 3 valeurs (des chiffres),</br>
     <%-- Condition if pour comparer les valeurs --%>
-    <% if (intValeur3 >= intValeur2 && intValeur3 <= intValeur1) { %>
+    <% if (intValeur3 <= intValeur2 && intValeur3 >= intValeur1) { %>
         <p>Valeur 3 est comprise entre la Valeur 1 et la Valeur 2.</p>
     <% }  else { %>
         <p>Valeur 3 n'est pas comprise entre la Valeur 1 et la Valeur 2.</p>
