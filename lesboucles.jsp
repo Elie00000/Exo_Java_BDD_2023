@@ -61,7 +61,6 @@
     <% for (int e = 1; e <= cpt; e++) { %>
         <% for (int g = cpy; g >= 1; g--) { %>
             &nbsp;
-            &thinsp;
         <% } %>
         <% for (int f = 1; f <= e; f++) { %>
             <%= "*" %>
@@ -85,9 +84,23 @@
         <% } %>
 <h2>Exercice 6 : Le demi losange</h2>
 <p>Ecrire le code afin de produire un losange</p>
-<p>Exemple si l'utilisateur saisie le valeur 5</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**</br>&nbsp;&nbsp;&nbsp;&nbsp;***</br>&nbsp;&nbsp;****</br>*****</p>
-<p>*****</br>&nbsp;&nbsp;****</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</p>
+    <% cpy=cpt; %>
+        <% for (int o = 1; o <= (cpt*2); o++) { %>
+            <% for (int r = (cpy - 1); r >= 1; r--) { %>
+                &nbsp;
+            <% } %>
+            <% for (int p = 1; p <= o; p++) { %>
+                *&nbsp;
+            <% } %>
+            <% for (int q = 1; q <= (cpt-1); q++) { %>
+                &nbsp;
+            <% } %>
+            <% for (int s = cpy; s >= 1; s--) { %>
+                *&nbsp;
+            <% } %>
+            <% cpy = cpy - 1; %>
+            <br>
+        <% } %>
 
 <h2>Exercice 7 : La table de multiplication</h2>
 <p>Ecrire le code afin de créser une table de multiplication</p>
