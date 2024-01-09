@@ -46,10 +46,12 @@
 
 <h2>Exercice 3 : Triangle rectangle inversé</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
+    <% int cpy=cpt; %>
     <% for (int c = 1; c <= cpt; c++) { %>
         <% for (int d = cpt; d >= 1; d--) { %>
             <%= "*" %>
         <% } %>
+        <% cpy = cpy - 1 %>
         <br>
     <% } %>
 
