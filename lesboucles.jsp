@@ -96,11 +96,11 @@
             <br>
         <% } %>
         <% cpy=cpt; %>
-        <% for (int o2 = 1; o2 <= (cpt-1); o2++) { %>
-            <% for (int q2 = 1; q2 <= (cpt-1); q2++) { %>
+        <% for (int o2 = 1; o2 <= (cpt); o2++) { %>
+            <% for (int q2 = 1; q2 <= o2; q2++) { %>
                 &nbsp;
             <% } %>
-            <% for (int s2 = cpy; s2 >= 1; s2--) { %>
+            <% for (int s2 = cpy; s2 >= 2; s2--) { %>
                 *&nbsp;
             <% } %>
             <% cpy = cpy - 1; %>
