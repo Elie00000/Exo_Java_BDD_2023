@@ -58,7 +58,7 @@
 <h2>Exercice 4 : Triangle rectangle 2</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
     <% for (int e = 1; e <= cpt; e++) { %>
-        <% for (int g = cpy; g >= cpt; g--) { %>
+        <% for (int g = cpy; g >= 1; g--) { %>
             <%= " " %>
         <% } %>
         <% for (int f = 1; f <= e; f++) { %>
