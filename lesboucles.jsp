@@ -95,6 +95,7 @@
             <% cpy = cpy - 1; %>
             <br>
         <% } %>
+        <% cpy=cpt; %>
         <% for (int o2 = 1; o2 <= cpt; o2++) { %>
             <% for (int q2 = 1; q2 <= (cpt-1); q2++) { %>
                 &nbsp;
