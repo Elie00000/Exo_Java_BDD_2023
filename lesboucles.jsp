@@ -63,7 +63,7 @@
             &nbsp;
         <% } %>
         <% for (int f = 1; f <= e; f++) { %>
-            <%= "*" %>
+            *&thinsp;
         <% } %>
         <% cpy = cpy - 1; %>
         <br>
