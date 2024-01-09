@@ -60,7 +60,7 @@
     <% cpy=cpt; %>
     <% for (int e = 1; e <= cpt; e++) { %>
         <% for (int g = cpy; g >= 1; g--) { %>
-            <p>&nbsp;</p>
+            &nbsp;
         <% } %>
         <% for (int f = 1; f <= e; f++) { %>
             <%= "*" %>
@@ -74,10 +74,10 @@
     <% cpy=cpt; %>
         <% for (int h = 1; h <= cpt; h++) { %>
             <% for (int m = (cpy - 1); m >= 1; m--) { %>
-                <%= "." %>
+                <%= " " %>
             <% } %>
             <% for (int l = 1; l <= h; l++) { %>
-                <p>*&nbsp;</p>
+                *&nbsp;
             <% } %>
             <% cpy = cpy - 1; %>
             <br>
