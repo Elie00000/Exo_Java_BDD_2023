@@ -30,12 +30,11 @@
     
 <h2>Exercice 1 : Comparaison 1</h2>
 <p>Ecrire un programme qui demande à l'utilisateur de saisir 3 valeurs (des chiffres),</br>
-A, B et C et dites nous si la valeur de C est comprise entre A et B.</br>
 
 <% if (intValeur3 >= intValeur1 && intValeur3 <= intValeur2) { %>
-    <p>La valeur 3 est comprise entre la valeur 1 et 2</p>
+    <% out.print("La valeur 3" + intValeur3 + "est comprise entre la valeur 1" + intValeur1 + " et 2 " + inputValeur2); %>
 <% } else { %>
-    <p>La valeur 3 n'est pas comprise entre la valeur 1 et 2</p>
+    <% out.print("La valeur 3" + intValeur3 + " n'est pas comprise entre la valeur 1" + intValeur1 + " et 2 " + inputValeur2); %>
 <% } %>
 
 <h2>Exercice 2 : Pair ou Impair ?</h2>
