@@ -32,9 +32,9 @@
 <p>Ecrire un programme qui demande à l'utilisateur de saisir 3 valeurs (des chiffres),</br>
 
 <% if (intValeur3 >= intValeur1 && intValeur3 <= intValeur2) { %>
-    <% System.out.println("La valeur 3" + intValeur3 + "est comprise entre la valeur 1" + intValeur1 + " et 2 " + inputValeur2); %>
+    <% System.out.println("La valeur 3" + intValeur3 + "est comprise entre la valeur 1" + intValeur1 + " et 2 " + intValeur2); %>
 <% } else { %>
-    <% System.out.println("La valeur 3" + intValeur3 + " n'est pas comprise entre la valeur 1" + intValeur1 + " et 2 " + inputValeur2); %>
+    <% System.out.println("La valeur 3" + intValeur3 + " n'est pas comprise entre la valeur 1" + intValeur1 + " et 2 " + intValeur2); %>
 <% } %>
 
 <h2>Exercice 2 : Pair ou Impair ?</h2>
