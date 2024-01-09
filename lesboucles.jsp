@@ -85,13 +85,17 @@
 <h2>Exercice 6 : Le demi losange</h2>
 <p>Ecrire le code afin de produire un losange</p>
     <% cpy=cpt; %>
-        <% for (int o = 1; o <= (cpt*2); o++) { %>
+        <% for (int o = 1; o <= cpt; o++) { %>
             <% for (int r = (cpy - 1); r >= 1; r--) { %>
                 &nbsp;
             <% } %>
             <% for (int p = 1; p <= o; p++) { %>
                 *&nbsp;
             <% } %>
+            <% cpy = cpy - 1; %>
+            <br>
+        <% } %>
+        <% for (int o = 1; o <= cpt; o++) { %>
             <% for (int q = 1; q <= (cpt-1); q++) { %>
                 &nbsp;
             <% } %>
